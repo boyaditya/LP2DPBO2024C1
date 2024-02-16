@@ -12,6 +12,7 @@ public class Clothing extends Product {
     public Clothing(){
     }
 
+    // setter and getter
     public String getSize(){
         return size;
     }

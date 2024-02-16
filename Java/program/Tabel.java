@@ -76,7 +76,7 @@ public class Tabel {
 
         buatGaris(maxLen);
 
-        // tampilkan anggota DPR
+        // tampilkan isi tabel
         for (int i = 1; i < getBaris(); i++) {
 
             for (int j = 0; j < getKolom(); j++) {

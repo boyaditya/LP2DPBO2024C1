@@ -11,6 +11,7 @@ public class Shirt extends Clothing {
     public Shirt() {
     }
 
+    // setter and getter
     public String getColor() {
         return color;
     }
