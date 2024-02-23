@@ -22,8 +22,8 @@ class Shirt(Clothing):
         sleeve_type="",
     ):
         super().__init__(idProduct, name, brand, price, size, material, gender)
-        self.__color = ""
-        self.__sleeve_type = ""
+        self.__color = color
+        self.__sleeve_type = sleeve_type
 
     def get_color(self):
         return self.__color
